@@ -1,0 +1,5 @@
+require 'rubygems'
+require 'bundler/setup'
+require 'erb'
+require 'active_support/configurable'
+require 'active_support/string_inquirer'
