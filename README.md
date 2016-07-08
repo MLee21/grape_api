@@ -20,6 +20,6 @@ To start the server:
 
 Visit:
 
-http:/localhost:9292/records/dob
-http:/localhost:9292/records/last_name
-http:/localhost:9292/records/gender
+* http:/localhost:9292/records/dob
+* http:/localhost:9292/records/last_name
+* http:/localhost:9292/records/gender
