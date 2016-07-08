@@ -15,6 +15,7 @@ module API
         file = File.read(File.expand_path('~/reverb.com/Project_1/dob.txt')).each_line.map { |line| JSON.parse(line) }
       end
 
+      desc 'Return all records sorted by last name ascending'
       get :last_name do 
         file = File.read(File.expand_path('~/reverb.com/Project_1/last_name_asc.txt')).each_line.map { |line| JSON.parse(line) }
       end
