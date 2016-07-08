@@ -1,6 +1,8 @@
 This is a standalone Grape API that is accessing my 'fake db' which is the repository: www.github.com/mlee21/ruby_db and possesses the following endpoints which should return json.
 Please, follow the instructions for the 'fake db' before proceeding with this application.
 
+Please make sure that the 'ruby_db' and this repository is in the same directory called 'reverb.com' and are in separate folders called Project_1 (ruby_db) and Project_2 (grape_api).
+
 * POST /records - Post a single data line in either of the formats supported by your existing code and save it to your file "database"
 * GET /records/gender - returns records from your database sorted by gender
 * GET /records/birthdate - returns records from your database sorted by birthdate
