@@ -14,6 +14,11 @@ To run the tests
 
 * run 'rspec'
 
+After running the tests which will include POST requests,
+make sure to run this command on the 'fake db' so, that the 'db' is updated.
+
+* ruby lib/data_retriever.rb customer_data_test.csv
+
 To start the server:
 
 * run 'rackup config.ru'
