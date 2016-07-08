@@ -2,6 +2,6 @@ $:.unshift File.expand_path "..", __FILE__
 
 require "rack"
 require "grape"
-require "lib/app"
+require "app/record"
 
-run API::App
+run API::Record

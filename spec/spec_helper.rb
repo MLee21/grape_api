@@ -8,7 +8,7 @@ require File.expand_path("../../config/application", __FILE__)
 
 # Initialize an instance of the app
 def app
-  API::App
+  API::Record
 end
 
 # Configure RSpec

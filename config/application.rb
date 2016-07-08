@@ -25,7 +25,7 @@ def include_files(path)
 end
 
 # Require public API files
-include_files("/lib/api")
+include_files("/app/api")
 
 # Require the base api file
-require File.expand_path('../../lib/api.rb', __FILE__)
+require File.expand_path('../../app/record.rb', __FILE__)
