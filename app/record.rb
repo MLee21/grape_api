@@ -21,10 +21,10 @@ module API
 
       desc 'Create new record'
       params do
-        requires :params, type: String, documentation: { eg: "aklsdfj" }
+        requires :data, type: String, documentation: { eg: "aklsdfj" }
       end
       post '/' do
-        file = File.open(File.expand_path('~/reverb.com/Project_1/customer_data_test.csv'), "a+"){ |f| f.write("\n" + params[:params]) }
+        file = File.open(File.expand_path('~/reverb.com/Project_1/customer_data_test.csv'), "a+"){ |f| f.write("\n" + params[:data]) }
       end
     end
   end
