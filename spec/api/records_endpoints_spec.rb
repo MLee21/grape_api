@@ -24,7 +24,7 @@ describe API::Record do
 
   describe 'POST' do 
     it "should post a new record to the file db that is comma delimited" do 
-      params = { params: "51,Smith,Jim,Male,Maroon,05/03/1983"}
+      params = { data: "51,Smith,Jim,Male,Maroon,05/03/1983"}
       post "records", params.to_json, {'ACCEPT' => "application/json", 'CONTENT_TYPE' => 'application/json'}
       expect(last_response.status).to eq(201)
     end
